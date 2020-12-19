@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <car list="CarList">
- <cartype Cartype="Sport">
- <cars number="1">
+ <employers department="Sport">
+ <employee number="1">
      <name> Bugatti Divo </name>
      <maxspeed>380</maxspeed>
      <price currency="USD"> 8000000 </price>
- </cars>
- </cartype>
+ </employee>
+ </employers>
 </car>

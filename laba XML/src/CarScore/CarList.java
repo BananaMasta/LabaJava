@@ -29,7 +29,7 @@ public class CarList {
 
         List<Car> carList = new ArrayList<>();
 
-        for (int i = 0; i < carNodeList.getLength(); i++){
+        for (int i = 0; i < carNodeList.getLength(); ++i){
         if (carNodeList.item(i).getNodeType() == Node.ELEMENT_NODE) {
             Element elementCars = (Element) carNodeList.item(i);
 
@@ -38,7 +38,7 @@ public class CarList {
             car.setNumber(Integer.parseInt(elementCars.getAttribute("number")));
 
             NodeList childNodes = elementCars.getChildNodes();
-            for (int j = 0; j<childNodes.getLength(); j ++){
+            for (int j = 0; j<childNodes.getLength(); ++j){
                 if (childNodes.item(j).getNodeType() ==Node.ELEMENT_NODE){
                     Element childElement = (Element) childNodes.item(j);
 
