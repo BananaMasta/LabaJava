@@ -22,8 +22,8 @@ public class CarList {
         DocumentBuilder builder = factory.newDocumentBuilder();
         Document document = builder.parse(Cars);
 
-        Element elementcartype = (Element) document.getElementsByTagName("cartype");
-        String Cartype = elementcartype.getAttribute("Cartype");
+        Element elementcartype = (Element) document.getElementsByTagName("cartype").item(0);
+        String Cartype = elementcartype.getAttribute("Cartype");;
 
         NodeList carNodeList = document.getElementsByTagName("cars");
 

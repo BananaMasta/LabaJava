@@ -7,5 +7,10 @@
      <maxspeed>380</maxspeed>
      <price currency="USD"> 8000000 </price>
  </cars>
+     <cars number="2">
+         <name> Lamborghini Diablo  </name>
+         <maxspeed>338</maxspeed>
+         <price currency="USD"> 309000 </price>
+     </cars>
  </cartype>
 </car>
