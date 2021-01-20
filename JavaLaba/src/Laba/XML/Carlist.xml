@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE Carlist SYSTEM "Car.dtd">
+<Carlist>
+    <carnumber number="0">
+        <car name="Bugatti Divo">
+            <carprice price="5400000"/>
+            <carstats maxspeed="380" horsepower="1500" />
+        </car>
+        <car name="Bugatti Chiron">
+            <carprice price="3000000"/>
+            <carstats maxspeed="420" horsepower="1500" />
+        </car>
+        <car name="Bugatti La Voiture Noire">
+            <carprice price="11000000"/>
+            <carstats maxspeed="420" horsepower="1500" />
+        </car>
+    </carnumber>
+</Carlist>

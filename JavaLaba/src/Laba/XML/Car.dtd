@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <!ELEMENT Carlist (carnumber)>
+        <!ELEMENT carnumber (car, AmountOfPrice?)>
+        <!ATTLIST carnumber
+                number CDATA #REQUIRED
+                >
+
+        <!ELEMENT car (carprice, carstats)>
+        <!ATTLIST car
+                name CDATA #REQUIRED
+                >
+
+        <!ELEMENT carprice EMPTY>
+        <!ATTLIST carprice
+                price CDATA #REQUIRED
+                >
+
+        <!ELEMENT carstats EMPTY>
+        <!ATTLIST carstats
+                maxspeed CDATA #REQUIRED
+                horsepower CDATA #REQUIRED
+                >
+        <!ELEMENT AmountOfPrice (#PCDATA)>
