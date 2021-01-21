@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-        <!ELEMENT Carlist (carnumber)>
-        <!ELEMENT carnumber (car, AmountOfPrice?)>
+        <!ELEMENT Carlist (carnumber*)>
+        <!ELEMENT carnumber (car*, AmountOfPrice?)>
         <!ATTLIST carnumber
                 number CDATA #REQUIRED
                 >
