@@ -41,7 +41,7 @@ public class CarListValidator {
         int count = 0;
         for (int j=0; j<cars.getLength();j++){
             Element car = (Element)cars.item(j);
-            Element carprice = (Element) car.getElementsByTagName("price").item(0);
+            Element carprice = (Element) car.getElementsByTagName("carprice").item(0);
             count += Integer.parseInt(carprice.getAttribute("Price"));
         }
         return count;
