@@ -7,7 +7,8 @@ public class App {
     public static final String UNIC_BINDING_NAME = "server.carlist.validator";
 
     public App() {
-  }
+  
+    }
 
     public static void main(String[] args) throws Exception {
         CarListValidatorImpl service = new CarListValidatorImpl();
